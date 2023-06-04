@@ -26,8 +26,7 @@ public class TestGreeter {
 
     assertThat(greeter.greet(someone), containsString(someone));
   }
-  
-# Samo testiram trigger   
+    
   @Test
   public void greetShouldIncludeGreetingPhrase() {
     String someone = "World";
